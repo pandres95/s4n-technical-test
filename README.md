@@ -2,7 +2,13 @@
 
 This project contains the module `@corrientazo-domicilios/drones`, which allows simulating the behaviour of drones flying around the neighbourhood around _"El corrientazo domicilios"_. Spec is [here](docs/backend-dev-technical-test-.pdf)
 
-## Installing
+## Setup
+
+### Requirements
+
+Due to the nature of recent ES6 features this module has, it requires Node 14.x or above.
+
+### Installation
 
 This module needs no dependencies. However, just in case you need to enable development environment, just run:
 
@@ -10,7 +16,7 @@ This module needs no dependencies. However, just in case you need to enable deve
 npm install
 ```
 
-## Configuring
+### Configuration
 
 You can use environment variables to set operational parameters:
 
