@@ -2,13 +2,28 @@
 
 This project contains the module `@corrientazo-domicilios/drones`, which allows simulating the behaviour of drones flying around the neighbourhood around _"El corrientazo domicilios"_. Spec is [here](docs/backend-dev-technical-test-.pdf)
 
-## Installing
+## Setup
+
+### Requirements
+
+Due to the nature of recent ES6 features this module has, it requires Node 14.x or above.
+
+### Installation
 
 This module needs no dependencies. However, just in case you need to enable development environment, just run:
 
 ```sh
 npm install
 ```
+
+### Configuration
+
+You can use environment variables to set operational parameters:
+
+|Name|Type|Description|
+|:---|:---|:----------|
+|BLOCK_SIZE|Number|The size of the block the drone is limited to|
+|MAX_ORDERS|Number|The number of maximum concurrent orders a Drone can manage in a single run|
 
 ## Usage
 
