@@ -1,0 +1,10 @@
+colors: true
+diff: true
+timeout: 10000
+slow: 1000
+require:
+  - dotenv/config
+package: package.json
+spec:
+  - test/**/*.spec.js
+exit: true
