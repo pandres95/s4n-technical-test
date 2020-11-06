@@ -44,7 +44,7 @@ function parseCommandLine (commandLine) {
 async function processDrone (file) {
     const drone = new Drone();
     const orders = file.commandlines.split('\n')
-        .slice(0, 3)
+        .slice(0, Number(process.env.MAX_ORDERS ?? 3))
         .filter(line => line !== '')
         .map(parseCommandLine);
     const output = ['== Reporte de entregas =='];
