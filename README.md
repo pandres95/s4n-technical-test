@@ -10,6 +10,15 @@ This module needs no dependencies. However, just in case you need to enable deve
 npm install
 ```
 
+## Configuring
+
+You can use environment variables to set operational parameters:
+
+|Name|Type|Description|
+|:---|:---|:----------|
+|BLOCK_SIZE|Number|The size of the block the drone is limited to|
+|MAX_ORDERS|Number|The number of maximum concurrent orders a Drone can manage in a single run|
+
 ## Usage
 
 First, import and define a new Drone
